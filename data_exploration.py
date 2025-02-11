@@ -1,4 +1,4 @@
-def ask_question(nb_attempts_left, question_sentence, right_answer): # three arguments
+def ask_question(nb_attempts_left, question_sentence, right_answer): # three arguments to be passed
     if nb_attempts_left > 0:
         answer = input(question_sentence)
         answer = answer.lower()
