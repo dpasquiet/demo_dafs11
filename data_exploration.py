@@ -20,7 +20,7 @@ questions_answers_list = [
 ]
 
 nb_attempts = 3
-
+print("Hello it's a new text")
 for question, answer in questions_answers_list :
     nb_attempts = ask_question(nb_attempts, question, answer) # calling the function
 
